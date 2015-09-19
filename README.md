@@ -4,7 +4,7 @@
 
 This repo is for collecting thoughts and ideas for benchmarking ndarray computations. We are less focused on the speed of core numerical computations (as have been covered elsewhere, e.g. [here](http://lessthanoptimal.github.io/Java-Matrix-Benchmark/) and [here](http://julialang.org/benchmarks/)), and more focused on how different ndarray abstractions perform across complex, real-world workflows -- involving applying multple functions / aggregations / reshapings of data over different dimensions -- especially in the context of distributed computing settings.
 
-For now this repo can serve to collect notes on the **workflows** we want to consider, the **settings** in which we want to evaluate those workflows, and the **languages** we want to include. Moving forward, we can use this repo to collect implementations of the benchmarks, a CLI to run them, and a little website to show them.
+For now this repo can serve to collect notes on the **events** we want to consider, the **settings** in which we want to evaluate those events, and the **languages** we want to include. Moving forward, we can use this repo to collect implementations of the benchmarks, a CLI to run them, and a little website to show them.
 
 ## Settings
 
@@ -20,22 +20,28 @@ Multiple nodes
 - 10 nodes 
 - 20 nodes 
 
-## Workflows
+## Events
 
 (This is just brainstorming, please sugggest!)
 
 In all cases, we should explore a range of dimensional parameters.
 
-Example 1
+Event 1
 - Create an n x k array
 - Apply a function over k
 - Aggregate over n to yield a 1 x k array
 
-Example 2
+Event 2
 - Create an n x k array
 - Apply a function over k
 - Apply a function over n
 - Aggregate over n to yield a 1 x k array
+
+Event 3
+- Burrows–Wheeler transform, based on this [demo](http://mikolalysenko.github.io/ndarray-presentation/#/5/1)
+- Generate all rotations of an 1 x k array (typically a string)
+- Sort rows
+- Select last column
 
 ## Languages / Frameworks
 
