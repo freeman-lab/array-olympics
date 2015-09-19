@@ -43,6 +43,7 @@ Many of us do a lot of this kind of work in Python, but we might want to conside
 
 - numpy (python)
 - theano (python)
+- dask.array (python)
 - scijs-ndarray (javascript)
 - torch (lua)
 - spark (scala)
