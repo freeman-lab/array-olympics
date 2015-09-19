@@ -42,6 +42,13 @@ Event 3
 - Generate all rotations of an 1 x k array (typically a string)
 - Sort rows
 - Select last column
+ 
+Event 4
+- Collection of n images each k x d
+- Assign a random key to each image
+- Average all images associated with each key
+- Could do starting with images or time series
+- Typical dimensions for @shoyer (and @freeman-lab!) are n=O(1000)-O(10000) and d,k=O(100)-O(1000)
 
 ## Languages / Frameworks
 
