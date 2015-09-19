@@ -4,7 +4,7 @@
 
 This repo is for collecting thoughts and ideas for benchmarking ndarray computations. We are less focused on the speed of core numerical computations (as have been covered elsewhere, e.g. [here](http://lessthanoptimal.github.io/Java-Matrix-Benchmark/) and [here](http://julialang.org/benchmarks/)), and more focused on how different ndarray abstractions perform across complex, real-world workflows -- involving applying multple functions / aggregations / reshapings of data over different dimensions -- especially in the context of distributed computing settings.
 
-For now this will serve to collect notes on the **workflows** we want to consider, the **settings** in which we want to evaluate those workflows, and the **languages** we want to include.
+For now this repo can serve to collect notes on the **workflows** we want to consider, the **settings** in which we want to evaluate those workflows, and the **languages** we want to include. Moving forward, we can use this repo to collect implementations of the benchmarks, a CLI to run them, and a little website to show them.
 
 ## Settings
 
