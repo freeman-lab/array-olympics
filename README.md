@@ -8,11 +8,14 @@ For now this repo can serve to collect notes on the **workflows** we want to con
 
 ## Settings
 
-Single node
-- 1 core (everything)
-- 8 cores (dask, spark, others?)
+(Note that some of these settings will only apply to some of the languages / frameworks)
 
-Multiple nodes (spark, dask distributed, others?)
+Single node
+- 1 core
+- 8 cores
+- GPU
+
+Multiple nodes
 - 5 nodes 
 - 10 nodes 
 - 20 nodes 
@@ -34,7 +37,14 @@ Example 2
 - Apply a function over n
 - Aggregate over n to yield a 1 x k array
 
-## Languages
+## Languages / Frameworks
 
 Many of us do a lot of this kind of work in Python, but we might want to consider evaluating relative to Scala (especially in the multiple node setting), and in the local setting, I'm interested in playing with Julia, and I recently learned about a really cool Javascript [ndarray library](https://github.com/scijs/ndarray) that it'd be fun to play with.
+
+- numpy (python)
+- theano (python)
+- scijs-ndarray (javascript)
+- torch (lua)
+- spark (scala)
+- spark (python)
 
