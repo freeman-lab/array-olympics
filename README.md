@@ -1,4 +1,4 @@
-# The Array Olympics
+# The Array Olympics!
 
 ## Overview
 
@@ -20,6 +20,8 @@ Multiple nodes (spark, dask distributed, others?)
 ## Workflows
 
 (This is just brainstorming, please sugggest!)
+
+In all cases, we should explore a range of dimensional parameters.
 
 Example 1
 - Create an n x k array
