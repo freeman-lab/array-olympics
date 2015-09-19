@@ -38,7 +38,7 @@ Event 2
 - Aggregate over n to yield a 1 x k array
 
 Event 3
-- Burrows–Wheeler transform, based on this [demo](http://mikolalysenko.github.io/ndarray-presentation/#/5/1)
+- Burrows–Wheeler transform, based on this [example](http://mikolalysenko.github.io/ndarray-presentation/#/5/1)
 - Generate all rotations of an 1 x k array (typically a string)
 - Sort rows
 - Select last column
