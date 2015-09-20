@@ -50,6 +50,9 @@ Event 4
 - Could do starting with images or time series
 - Typical dimensions for @shoyer (and @freeman-lab!) are n=O(1000)-O(10000) and d,k=O(100)-O(1000)
 
+Event 5
+- SVD!
+
 ## Languages / Frameworks
 
 Many of us do a lot of this kind of work in Python, but we might want to consider evaluating relative to Scala (especially in the multiple node setting), and in the local setting, I'm interested in playing with Julia, and I recently learned about a really cool Javascript [ndarray library](https://github.com/scijs/ndarray) that it'd be fun to play with.
