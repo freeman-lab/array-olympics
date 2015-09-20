@@ -51,7 +51,7 @@ Event 4
 - Typical dimensions for @shoyer (and @freeman-lab!) are n=O(1000)-O(10000) and d,k=O(100)-O(1000)
 
 Event 5
-- SVD!
+- SVD! (out of core!)
 
 ## Languages / Frameworks
 
