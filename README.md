@@ -23,6 +23,7 @@ Multiple nodes
 ## Events
 
 Suggested events include:
+
 1. Aggegation 
 2. Mapped function + aggregation
 3. Burrows–Wheeler transform
