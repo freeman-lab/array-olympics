@@ -34,7 +34,9 @@ Detailed descriptions are available in the [wiki](https://github.com/freeman-lab
 
 ## Languages / Frameworks
 
-Many of us do a lot of this kind of work in Python, but we might want to consider evaluating relative to Scala (especially in the multiple node setting), and in the local setting, I'm interested in playing with Julia, and I recently learned about a really cool Javascript [ndarray library](https://github.com/scijs/ndarray) that it'd be fun to play with.
+Many of us do a lot of this kind of work in Python, but for the Spark setting we should consider evaluating relative to Scala, and in the local setting it would be interesting to compare to other languages (including Julia and Javascript).
+
+Note that all languages are appropriate to the single node case + 1 core settings, but only some are relavant to other settings (e.g. only Spark for the multiple node settings, only torch and theano for GPUs, etc.)
 
 - numpy (python)
 - theano (python)
