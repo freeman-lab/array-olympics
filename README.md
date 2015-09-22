@@ -36,7 +36,7 @@ Detailed descriptions are available in the [wiki](https://github.com/freeman-lab
 
 Many of us do a lot of this kind of work in Python, but for the Spark setting we should consider evaluating relative to Scala, and in the local setting it would be interesting to compare to other languages (including Julia and Javascript).
 
-Note that all languages are appropriate to the single node case + 1 core settings, but only some are relavant to other settings (e.g. only Spark for the multiple node settings, only torch and theano for GPUs, etc.)
+Note that all languages are appropriate to the "single node + 1 core" setting, but only some are relavant to other settings (e.g. only Spark for the multiple node settings, only torch and theano for GPUs, etc.)
 
 - numpy (python)
 - theano (python)
