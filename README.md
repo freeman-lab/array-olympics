@@ -22,36 +22,14 @@ Multiple nodes
 
 ## Events
 
-(This is just brainstorming, please sugggest!)
+Suggested events include:
+- 1) Aggegation 
+- 2) Mapped function + aggregation
+- 3) Burrows–Wheeler transform
+- 4) Aggregate images by key
+- 5) SVD (including out-of-core)
 
-In all cases, we should explore a range of dimensional parameters.
-
-Event 1
-- Create an n x k array
-- Apply a function over k
-- Aggregate over n to yield a 1 x k array
-
-Event 2
-- Create an n x k array
-- Apply a function over k
-- Apply a function over n
-- Aggregate over n to yield a 1 x k array
-
-Event 3
-- Burrows–Wheeler transform, based on this [example](http://mikolalysenko.github.io/ndarray-presentation/#/5/1)
-- Generate all rotations of an 1 x k array (typically a string)
-- Sort rows
-- Select last column
- 
-Event 4
-- Collection of n images each k x d
-- Assign a random key to each image
-- Average all images associated with each key
-- Could do starting with images or time series
-- Typical dimensions for @shoyer (and @freeman-lab!) are n=O(1000)-O(10000) and d,k=O(100)-O(1000)
-
-Event 5
-- SVD! (out of core!)
+Detailed descriptions are available in the [wiki](https://github.com/freeman-lab/array-olympics/wiki)
 
 ## Languages / Frameworks
 
