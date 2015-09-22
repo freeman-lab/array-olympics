@@ -23,11 +23,11 @@ Multiple nodes
 ## Events
 
 Suggested events include:
-- 1) Aggegation 
-- 2) Mapped function + aggregation
-- 3) Burrows–Wheeler transform
-- 4) Aggregate images by key
-- 5) SVD (including out-of-core)
+1. Aggegation 
+2. Mapped function + aggregation
+3. Burrows–Wheeler transform
+4. Aggregate images by key
+5. SVD (including out-of-core)
 
 Detailed descriptions are available in the [wiki](https://github.com/freeman-lab/array-olympics/wiki)
 
